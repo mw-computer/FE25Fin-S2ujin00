@@ -4,43 +4,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>웹화면구현:김똘똘-ㅇㅇㅇ클로닝
+	<title>웹화면구현:김똘똘-ㅇㅇㅇ클로닝g
 		//TODO: 타이틀에 본인 이름 넣기
 	</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<nav>
-		<div class="container">
-			//TODO: 메뉴 완성하기 (상단메뉴바 또는 사이드메뉴바) + 화면 사이즈에 따라 반응형으로 변경되도록 구현하기
-			<ul>
-				<li>
-					<a href="#">메뉴 1
-						<ul>
-							<li><a href="#">서브메뉴 1</a></li>
-							<li><a href="#">서브메뉴 2</a></li>
-							<li><a href="#">서브메뉴 3</a></li>
-						</ul>
-					</a>
-					<a href="#">메뉴 2
-						<ul>
-							<li><a href="#">서브메뉴 1</a></li>
-							<li><a href="#">서브메뉴 2</a></li>
-							<li><a href="#">서브메뉴 3</a></li>
-						</ul>
-					</a>
-					<a href="#">메뉴 3
-						<ul>
-							<li><a href="#">서브메뉴 1</a></li>
-							<li><a href="#">서브메뉴 2</a></li>
-							<li><a href="#">서브메뉴 3</a></li>
-						</ul>
-					</a>
+	<div id="wrapper">
+		<nav id="nav">
+			<ul id="menu__list">
+				<li id="menu__menu">
+					메뉴 1
+					<div id="subwrapper">
+						<nav id="subnav">
+							<ul id="submenu__list">
+								<li id="submenu__menu">서브메뉴 1</li>
+								<li id="submenu__menu">서브메뉴 2</li>
+								<li id="submenu__menu">서브메뉴 3</li>
+							</ul>
+						</nav>
+					</div>
+				</li>
+				<li id="menu__menu">
+					메뉴 2
+					<div id="subwrapper">
+						<nav id="subnav">
+							<ul id="submenu__list">
+								<li id="submenu__menu">서브메뉴 a</li>
+								<li id="submenu__menu">서브메뉴 b</li>
+								<li id="submenu__menu">서브메뉴 c</li>
+							</ul>
+						</nav>
+					</div>
 				</li>
 			</ul>
-		</div>
-	</nav>
+		</nav>
+	</div>
 	<main>
 		<div class="container">
 			<h1>웹화면 구현</h1>
@@ -53,7 +52,7 @@
 			//TODO: 여기에 본인이 구현하고자 하는 내용을 작성하세요.
 		</div>
 	</section>
-		<section>
+	<section>
 		<div class="container">
 			<h2>섹션2</h2>
 			//TODO: 여기에 본인이 구현하고자 하는 내용을 작성하세요.
