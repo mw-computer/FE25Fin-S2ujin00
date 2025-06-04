@@ -1,14 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/p5Ba1kFH)
 # 웹화면구현 파이널 프로젝트
 
-### 컴퓨터공학과 김똘똘
+### 컴퓨터공학과 유영진
 > 디플로이된 웹사이트 주소 : https://cute-kitsune-0e87fb.netlify.app/
- [//TODO: 디플로이된 주소 기입 ](//FIXME: 디플로이된 주소 기입)
 
 ### 파이널 프로젝트 요약
 
-#### 프로젝트 목표 : ㅇㅇㅇㅇ 사이트 클로닝 
-> 프로그래머스, 목대컴공, 개인정보포털, 대전광역시 서구, 대전광역시 유성구 중에서 1택
+#### 프로젝트 목표 : 프로그래머스 사이트 클로닝 
 - 클로닝 사이트 선정 이유1:
 - 클로닝 사이트 선정 이유2:
 - 클로닝 사이트 선정 이유3:
